@@ -1,7 +1,5 @@
 * {
             box-sizing: border-box;
-            margin: 0px;
-            padding: 0px;
 
 
         }
@@ -9,7 +7,7 @@
         .container {
             width: 100%;
             padding: 0%;
-            margin: auto;
+            
 
 
 
@@ -27,6 +25,9 @@
             border: 1px solid black;
             margin: 10px;
             box-sizing: border-box;
+            max-width: fit-content;
+            font-size: 75%;
+            
 
 
 
@@ -35,6 +36,7 @@
         .menu {
 
             font-family: poppins;
+            font-size: 25%;
             text-align: center;
             padding: 4px;
             width: 75px;
@@ -192,7 +194,7 @@
             }
 
             .col-md-5 {
-                width: 41.66%;
+                width: 47.66%;
             }
 
             .col-md-6 {
